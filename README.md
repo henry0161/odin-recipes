@@ -1,4 +1,4 @@
-Hi, I can't beleive I've made it this far into the Odin Project! All thigns going well so far. 
+Hi, I can't beleive I've made it this far into the Odin Project! All things going well so far. 
 
 For this project, I am going to be creating a basic recipes website.
 
