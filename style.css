@@ -1,0 +1,40 @@
+/* stylesheet */
+
+/* box size */
+* {
+box-sizing: border-box;
+}
+
+/* font size */ 
+
+body {
+  font-family: Arial, Helvetica, "sans-serif";
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.5;
+}
+
+h1 {
+    font-size: 36px;
+    color: #4c4c4c;
+    font-style: italic;
+}
+
+/* Make images responsive by default */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/*
+p,li {
+    max-width: 100ch;
+}
+*/
+.homepage-box {
+    text-align: center;
+    border: 3px solid #4c4c4c;
+    list-style-position: outside;
+
+}
