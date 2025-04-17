@@ -2,39 +2,82 @@
 
 /* box size */
 * {
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 /* font size */ 
-
 body {
-  font-family: Arial, Helvetica, "sans-serif";
-  background-color: #fdfdfd;
-  color: #333;
-  line-height: 1.5;
-}
+    margin: 0;
+    padding: 0;
+    background-color: bisque; /* default for recipe pages */
+    font-family: Arial, Helvetica, "sans-serif";
+    color: #333;
+    line-height: 1.5;
 
+  /* h1 font size */ 
+}
 h1 {
     font-size: 36px;
+    font-family: "Roboto", sans-serif;
     color: #4c4c4c;
     font-style: italic;
+    text-align: center;
 }
 
+/* Only if homepage, override background */
+body.homepage {
+    background-color: #ffffff;
+    margin: 10px;
+  }
 /* Make images responsive by default */
 
 img {
     max-width: 100%;
     height: auto;
     display: block;
+    margin: auto;
+    border-style: groove;
 }
-/*
-p,li {
-    max-width: 100ch;
-}
-*/
+/* box & bullet homepage centering*/
 .homepage-box {
     text-align: center;
-    border: 3px solid #4c4c4c;
-    list-style-position: outside;
+    border: 6px solid rgb(168, 109, 36);
+    list-style-position: inside;
+}
 
+/* styling recipe pages for centering */
+.recipe-box {
+    text-align: left;
+    list-style-position: inside;
+    background-color: bisque;
+    max-width: 700px;      /* keeps line length comfortable */
+    margin: 0 auto;        /* centers the whole box */
+    padding: 0 20px;       /* left and right padding */
+}
+
+ol, ul, p, h2, h3, h4 {
+    margin: 10px 0;
+}
+
+.second-images {
+    display: block;
+    box-shadow: 0 0 5px #333;
+    border-style: none;
+    margin: 20px 0px;
+}
+
+a {
+    color: #a66900;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: #3b2020;
+}
+.third-images {
+    display: inline-block;
+    box-shadow: 0 0 5px #333;
+    border-style: none;
+    margin: 20px 20px;
 }
